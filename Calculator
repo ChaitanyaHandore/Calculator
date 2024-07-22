@@ -1,0 +1,20 @@
+first=input("Enter first number")
+second=input("Enter the second number")
+
+first=int(first)
+second=int(second)
+
+operator=input("Enter the operator(+,-,*,/,%):")
+
+if operator=='+':
+    print(first+second)
+elif operator=='-':
+    print(first-second)
+elif operator=='*':
+    print(first*second)
+elif operator=='/':
+    print(first/second)
+elif operator=='%':
+    print(first%second)
+else:
+    print("invalid case")
